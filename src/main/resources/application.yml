@@ -1,0 +1,10 @@
+server:
+  port: 9001
+spring:
+  application:
+    name: alibaba-nacos-client-feign
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 172.16.11.200:8848
+
